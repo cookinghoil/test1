@@ -1,0 +1,125 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  border: 1px dotted red;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+#container {
+  width: 100%;
+  height: 100%;
+  border: 1px dotted black;
+}
+header {
+  width: 100%;
+  min-width: 1060px;
+  z-index: 100;
+  background-color: white;
+  border: 1px dotted rgb(255, 0, 221);
+}
+nav {
+  width: 100%;
+  height: 32px;
+  background: #00307a;
+}
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  padding-top: 10px;
+}
+nav ul > li {
+  padding-left: 30px;
+  display: block;
+  position: relative;
+  left: 750px;
+  top: -5px;
+}
+#login a {
+  color: white;
+  font-weight: lighter;
+  font-size: 11px;
+  font-style: initial;
+}
+
+#main_icon {
+  top: 0;
+  left: 5%;
+  position: relative;
+  float: left;
+  width: 110px;
+  height: 35px;
+  background-image: url(../image/header/kangol1.PNG);
+  z-index: 999px;
+}
+#logo {
+  position: relative;
+  top: 35px;
+  left: 35%;
+}
+#search {
+  position: relative;
+  top: -10px;
+  left: 76%;
+}
+#search input {
+  border-right: none;
+  border-top: none;
+  border-left: none;
+}
+#menu_bar {
+  width: 100%;
+}
+#menu_bar li {
+  float: left;
+  position: relative;
+  top: 30px;
+  padding-left: 9%;
+  left: -4%;
+}
+#menu_bar a {
+  color: #263238;
+  font-size: 13px;
+  font-style: unset;
+}
+.pic {
+  position: relative;
+  padding-top: 5%;
+  left: 5%;
+}
+.pic img {
+  width: 1120px;
+  height: 216px;
+  border: 1px dotted grey;
+}
+article {
+  width: 100%;
+  height: 30%;
+}
+#detail h5 {
+  display: inline;
+}
+#text_pro {
+  position: absolute;
+  left: 5%;
+}
+#home {
+  float: left;
+  position: relative;
+  left: 75%;
+  background: url(https://kangolkorea.com/web/assets/images/common/icon_home.png) -7px
+    0 no-repeat;
+}
+
+#text_home {
+  float: left;
+  position: relative;
+  left: 75%;
+}

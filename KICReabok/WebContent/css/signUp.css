@@ -1,0 +1,96 @@
+@charset "UTF-8";
+body {
+	margin: 0px;
+}
+
+#container_body {
+	/* border: 1px solid; */ width: 1000px; height: 1100px;
+}
+#container_1 {
+	/* border: 1px solid; */ width: 470px; text-align: center;
+}
+#container_2 {
+	/* border: 1px solid; */ width: 470px; text-align: center;
+}
+#container_3 {
+	/* border: 1px solid; */ width: 470px; text-align: center;
+}
+#container_4 {
+	position: relative; left: 480px; top: -985px;
+	/* border: 1px solid; */ width: 450px; text-align: center;
+}
+
+#h1 {
+	position: relative; right: 175px;
+}
+#ra1 {
+	position: relative; right: 90px; top: 15px;
+	font-size: 11px;
+}
+#bt1 {
+	position: relative; left: 150px; top: -10px;
+	border: 1px solid #D2CFCF; width: 140px; height: 40px;
+	background-color: #D2CFCF; color: white;
+}
+
+#id, #pass, #repass, #phone {
+	margin-top: 10px;
+	border: 1px solid #D2CFCF; width: 445px; height: 35px;
+}
+#line_1 {
+	border: 0.5px dashed #D2CFCF; width: 450px;
+	margin-top: 20px; margin-bottom: 20px;
+}
+#email1, #email2 {
+	border: 1px solid #D2CFCF; width: 130px; height: 37px;
+}
+#email {
+	border: 1px solid #D2CFCF; width: 145px; height: 42px;
+}
+#year, #month, #day {
+	margin-top: 10px;
+	border: 1px solid #D2CFCF; width: 146px; height: 42px;
+}
+#coupon_1 {
+	position: relative; top: 4px; right: 217px;
+}
+#coupon_2 {
+	position: relative; top: -15px; right: 29px;
+	font-size: 11px; color: red;
+}
+#gender {
+	border: 1px solid #D2CFCF; width: 450px; height: 42px;
+}
+
+#yesform {
+	margin-top: 20px;
+	border: 1px solid #D2CFCF; width: 450px; height: 420px;
+}
+#td_all {
+	border-bottom: 1px solid #D2CFCF;
+	font-size: 11px; color: red; text-align: left;
+}
+#td_1 {
+	border-bottom: 1px solid #D2CFCF;
+	font-size: 11px; text-align: left;
+}
+#td_2 {
+	border-bottom: 1px solid #D2CFCF;
+	font-size: 11px; color: red; text-align: left;
+}
+#td_3 {
+	font-size: 11px; text-align: left;
+}
+#bt2 {
+	position: relative; right: 85px;
+	margin-top: 30px;
+	border: 1px solid #D2CFCF; width: 280px; height: 50px;
+	background-color: #D2CFCF; color: white;
+}
+
+
+
+
+#sub_nav,#sub_nav2,#sub_nav3,#sub_nav4,#nav_login{
+    position: absolute;
+}

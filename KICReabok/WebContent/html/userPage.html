@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/userPage.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="../js/header.js"></script>
+    <title>상품 상세페이지</title>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <div id="kangol_nav">
+          <a href="kangol.html" id="kangol_icon"></a>
+      </div>
+        <nav>
+          <ul>
+            <li id="main_icon"><a href="./index.html"><img src="../image/header/main_title.PNG"></a></li>
+            <li id="nav_man"><a href="product.html">MEN</a></li>
+            <li id="nav_women">WOMEN</li>
+            <li>KIDS</li>
+            <li>FITNESS</li>
+            <li id="nav_classic">CLASSIC</li>
+            <li>ONLINE ONLY</li>
+            <li id="nav_brand"><a href="brand.html">BRAND</a></li>
+            <div>
+              <li id="find"><img src="../image/header/find.JPG" /></li>
+              <li id="user"><img src="../image/header/login.JPG" /></li>
+              <li id="basket"><img src="../image/header/carrier.JPG" /></li>
+            </div>
+          </ul>
+        </nav>
+      </header>
+      <div id="sub_nav">
+        <div id="sub_nav_back">
+          <h3>MEN</h3>
+          <ul>
+            <li>신상품</li>
+            <li>인기상품</li>
+            <li>할인상품</li>
+            <li>아울렛</li>
+            <li>스피드배송</li>
+          </ul>
+        </div>
+        <div id="sub_nav_noback">
+          <h3>CATEGORY</h3>
+          <ul>
+            <li>신발</li>
+            <li>의류</li>
+            <li>용품</li>
+          </ul>
+        </div>
+        <div id="sub_nav_noback">
+          <h3>FITNESS</h3>
+          <ul>
+            <li>트레이닝</li>
+            <li>러닝</li>
+            <li>농구</li>
+            <li>아웃도어</li>
+            <li>기타</li>
+          </ul>
+        </div>
+        <div id="sub_nav_noback">
+          <h3>BRAND</h3>
+          <ul>
+            <li>피트니스</li>
+            <li>클래식</li>
+          </ul>
+        </div>
+        <div id="sub_nav_img">
+          <img src="../image/header/sub_header_1.jpg" />
+        </div>
+      </div>
+      <div id="sub_nav2">
+        <div id="sub_nav_back">
+          <h3>WOMEN</h3>
+          <ul>
+            <li>신상품</li>
+            <li>인기상품</li>
+            <li>할인상품</li>
+            <li>아울렛</li>
+            <li>스피드배송</li>
+          </ul>
+        </div>
+        <div id="sub_nav_noback">
+          <h3>CATEGORY</h3>
+          <ul>
+            <li>신발</li>
+            <li>의류</li>
+            <li>용품</li>
+          </ul>
+        </div>
+        <div id="sub_nav_noback">
+          <h3>FITNESS</h3>
+          <ul>
+            <li>트레이닝</li>
+            <li>러닝</li>
+            <li>농구</li>
+            <li>아웃도어</li>
+            <li>기타</li>
+          </ul>
+        </div>
+        <div id="sub_nav_noback">
+          <h3>BRAND</h3>
+          <ul>
+            <li>피트니스</li>
+            <li>클래식</li>
+          </ul>
+        </div>
+        <div id="sub_nav_img">
+          <img src="../image/header/sub_header_2.jpg" />
+        </div>
+      </div>
+      <div id="sub_nav3">
+        <div id="sub_nav_back">
+          <ul>
+            <li><h3>NEW</h3></li>
+            <li><h3>BEST</h3></li>
+            <li><h3>SALE</h3></li>
+          </ul>
+        </div>
+        <div id="sub_nav_noback">
+          <h3>MEN</h3>
+          <ul>
+            <li>전체보기</li>
+          </ul>
+        </div>
+        <div id="sub_nav_noback">
+          <h3>WOMEN</h3>
+          <ul>
+            <li>전체보기</li>
+          </ul>
+        </div>
+        <div id="sub_nav_noback">
+          <h3>COLLECTION</h3>
+          <ul>
+            <li>퓨리 컬렉션</li>
+            <li>퓨리라이트</li>
+          </ul>
+        </div>
+        <div id="sub_nav_img">
+          <img src="../image/header/sub_header_3.jpg" />
+        </div>
+      </div>
+      <div id="sub_nav4">
+        <div id="sub_nav_noback">
+          <h3>FITNESS</h3>
+          <ul id="list_novisible">
+            <li><img src="../image/header/sub_header_4.jpg" /></li>
+          </ul>
+        </div>
+        <div id="sub_nav_noback">
+          <h3>CLASSIC</h3>
+          <ul id="list_novisible">
+            <li><img src="../image/header/sub_header_5.jpg" /></li>
+          </ul>
+        </div>
+        <div id="sub_nav_noback">
+          <h3>CAMPAIGNS</h3>
+          <ul id="list_novisible">
+            <li><img src="../image/header/sub_header_6.jpg" /></li>
+          </ul>
+        </div>
+        <div id="sub_nav_noback">
+          <ul id="list_visible">
+            <li><h3>REECLUB</h3></li>
+            <li><h3>PROMOTION</h3></li>
+          </ul>
+        </div>
+        <div id="sub_nav_img"></div>
+      </div>
+      <div id="nav_login">
+        <h5 id="nav_login_text"><a href="login.html">로그인</a> | <a href="singUP.html">회원가입</a></h5>
+      </div>
+      <section id="user_main">
+        <div id="contents">
+            <div id="left_box">
+                <h4><img src="../image/userPage/title.gif"></h4>
+                <dl id="list_box">
+                   <dt>나의 쇼핑내역</dt>
+                   <dd>
+                       <ul>
+                           <li>주문/배송조회</li>
+                           <li>취소/반품조회</li>
+                           <li>교환내역 조회</li>
+                           <li>취소/반품 결제대기</li>
+                           <li>교환 결제대기</li>
+                           <li>증빙서류발급</li>
+                       </ul>
+                   </dd>
+                   <dt>나의 쇼핑내역</dt>
+                   <dd>
+                       <ul>
+                           <li>쿠폰현황</li>
+                           <li>포인트 현황</li>
+                       </ul>
+                   </dd>
+                   <dt>나의 쇼핑내역</dt>
+                   <dd>
+                       <ul>
+                           <li>오늘 본 상품</li>
+                       </ul>
+                   </dd>
+                   <dt>나의 쇼핑내역</dt>
+                   <dd>
+                       <ul>
+                           <li>회원정보 수정</li>
+                           <li>배송지 관리</li>
+                           <li>회원탈퇴</li>
+                           <li>SNS 연결설정</li>
+                       </ul>
+                   </dd>
+                   <dt>나의 쇼핑내역</dt>
+                   <dd>
+                       <ul>
+                           <li>1:1 문의내역</li>
+                       </ul>
+                   </dd>
+                   <dt>나의 쇼핑내역</dt>
+                   <dd>
+                       <ul>
+                           <li>나의 이벤트 현황</li>
+                           <li>내가 작성한 상품평</li>
+                       </ul>
+                   </dd>
+                </dl>
+            </div>
+            <div id="right_box">
+                <div id="right_1">
+                    <p>HOME > 마이페이지</p>
+                </div>
+                <div id="right_2">
+                  <div id="right_2_sub1">
+                    <img src="../image/userPage/ree_club.gif" height="72px" width="72px">
+                    <img src="../image/userPage/btn_1.gif" height="23px" width="72px">
+                  </div>
+                  <div id="right_2_sub2">
+                    <h3>홍길동님</h3>
+                    <table>
+                      <tr>
+                        <th>
+                          <img src="../image/userPage/coupon.gif">
+                        </th>
+                        <td><strong>1</strong> 장</td>
+                      </tr>
+                      <tr>
+                        <th>
+                          <img src="../image/userPage/mypoint.gif">
+                        </th>
+                        
+                        <td><strong>0</strong>&nbsp;<img src="../image/userPage/Picon.gif"></td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div id="right_2_sub3">
+                      <div id="right_2_sub3_1">
+                        <h4>나의 쇼핑</h4>
+                        <ul>
+                          <li>결제완료 <a href="#">0</a>건 |</li>
+                          <li>배송준비중 <a href="#">0</a>건 |</li>
+                          <li>배송중 <a href="#">0</a>건 |</li>
+                          <li>배송완료 <a href="#">0</a>건</li>
+                        </ul>
+                      </div>
+                      <div id="right_2_sub3_2">
+                        <div id="sub3_2_1">
+                          <h4>나의 정보</h4>
+                          <img src="../image/userPage/btn_2.gif">
+                        </div>
+                        <div id="sub3_2_2">
+                          <p>주소:</p>
+                          <p>휴대폰: 010-0000-0000</p>
+                        </div>
+                      </div>
+
+                  </div>
+                </div>
+                <div id="right_3"><img src="../image/userPage/order.gif"> <span>상품별 결제금액은 주문시 총 결제 금액과 다를 수 있으며 자세한 정보를 보시려면 주문번호를 클릭하셔서 확인해주십시오.</span></div>
+                <hr>
+                <div id="right_4">
+                    <span> <img src="../image/userPage/blt_1.gif">기간조회 <img src="../image/userPage/btn_3month.gif"> <img src="../image/userPage/btn_6month.gif"> <img src="../image/userPage/btn_2years.gif"></span>
+                    <span>
+                        <input type="text"/>&nbsp;~&nbsp;<input type="text"/> <img src="../image/userPage/btn_3.gif">
+                    </span>
+                </div>
+                <div id="right_5">
+                    <table>
+                        <thead>
+                            <tr>
+                                <td width="40px"><strong>매장명</strong></td>
+                                <td><strong>주문번호/일자</strong></td>
+                                <td width="160px"><strong>상품명</strong></td>
+                                <td><strong>판매금액</strong></td>
+                                <td><strong>사이즈</strong></td>
+                                <td width="30px"><strong>주문수량</strong></td>
+                                <td width="30px"><strong>취소수량</strong></td>
+                                <td><strong>주문상태</strong></td>
+                                <td><strong>취소/반품</strong></td>
+                                <td><strong>교환</strong></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th colspan="10">주문배송 현황이 없습니다.</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="right_6">
+                  <div id="right_6_sub1">
+                      <div id="right_6_sub1_1">
+                        <img src="../image/userPage/tit_main01.gif" width="55px" height="15px">
+                        <img src="../image/userPage/btn_more.gif" width="30px" height="15px">
+                      </div>
+                      <div id="right_6_sub1_2">
+                        <div><p>취소</p><ul><li>취소신청 <a href="#">0</a>건</li>&nbsp; &nbsp;<li>취소완료 <a href="#">0</a>건</li>&nbsp;&nbsp; <li>매장취소 <a href="#">0</a>건</li></ul></div>
+                        <div><p>반품</p><ul><li>반품신청 <a href="#">0</a>건</li>&nbsp; &nbsp;<li>반품완료 <a href="#">0</a>건</li></ul></div>
+                        <div><p>교환</p><ul><li>교환신청 <a href="#">0</a>건</li>&nbsp; &nbsp;<li>교환완료 <a href="#">0</a>건</li></ul></div>
+                      </div>
+                  </div>
+                  <div id="right_6_sub2">
+                    <div id="right_6_sub2_1">
+                      <img src="../image/userPage/tit_main02.gif" width="55px" height="15px">
+                      <img src="../image/userPage/btn_more.gif" width="30px" height="15px">
+                    </div>
+                   <div id="right_6_sub2_2">
+                     <div>&nbsp;문의내역이 없습니다.</div>
+                     <div id="bg"></div>
+                     <div></div>
+                     <div id="bg"></div>
+                   </div>
+                  </div>
+                </div>
+                <div id="right_7">
+                  <div id="right_7_sub1">
+                    <div id="right_6_sub2_1">
+                      <img src="../image/userPage/tit_main02.gif" width="55px" height="15px">
+                      <img src="../image/userPage/btn_more.gif" width="30px" height="15px">
+                    </div>
+                    <div id="right_6_sub2_2">
+                      <div>&nbsp;문의내역이 없습니다.</div>
+                      <div id="bg"></div>
+                      <div></div>
+                      <div id="bg"></div>
+                    </div>
+                  </div>
+                  <div id="right_7_sub2">
+                    <div id="right_6_sub2_1">
+                      <img src="../image/userPage/tit_main02.gif" width="55px" height="15px">
+                      <img src="../image/userPage/btn_more.gif" width="30px" height="15px">
+                    </div>
+                    <div id="right_7_sub2_2">
+                      
+                      <div id="right_7_sub2_div">
+                        <img src="../image/userPage/no.gif">
+                        <p>작성하신 상품평이 없습니다.</p>
+                      </div>
+                      
+                      <div id="right_7_sub2_div">
+                        <img src="../image/userPage/no.gif">
+                        <p>작성하신 상품평이 없습니다.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="right_8">
+                    <div id="list_title"><span>오늘 본 상품</span><span><img src="../image/userPage/btn_more2.gif"></span></div>
+                    <div id="item_box">
+                        <figure>
+                            <img src="../image/product/shoes1.jpg" width="90px" height="90px">
+                            <figcaption>18000원</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      </section>
+      <footer>
+        <div id="fo_div1">
+            <div id="foot_ulbox">
+                <ul>
+                    <li><a>주문배송</a></li> 
+                    <li><a>리클럽</a></li>
+                    <li><a href="notice.html">공지사항</a></li>
+                    <li><a>매장안내</a></li>
+                    <li style="color:gray;"><a>채용정보</a></li>
+                    <li style="color:gray;"><a>고객센터</a></li>
+                    <li style="color:gray;"><a>상담톡</a><img src="../image/footer/kakao.png"></li>   
+                </ul>
+            </div>
+            <div id="foot_social">
+                <a id="foot_facebook"></a>
+                <a id="foot_insta"></a>
+                <a id="foot_blog"></a>
+                <a id="foot_youtube"></a>
+            </div>
+        </div>
+        <div id="fo_div2">
+            <img src="../image/footer/yg.jpg">
+        </div>
+        <div id="fo_div3">
+            <p>설명입니다.</p>
+        </div>
+    </footer>
+    </div>
+  </body>
+</html>

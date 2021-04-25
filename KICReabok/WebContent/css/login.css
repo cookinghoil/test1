@@ -1,0 +1,96 @@
+
+
+#content_all {
+	/* border: 1px solid; */ 
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#content_1 {
+	/* border: 1px solid; */ width: 450px;
+}
+#content_2 {
+	border-left: 1px solid #D2CFCF; width: 600px;
+}
+
+#h1 {
+	font-size: 27px;
+	margin-bottom: 20px;
+}
+#id, #pass {
+	border: 1px solid #D2CFCF; width: 285px; height: 35px;
+	margin-top: 15px;
+}
+#find_1 {
+	font-size: 13px;
+}
+#find_2 {
+	font-size: 13px; color: #B14444;
+	margin-left: 65px;
+}
+#bt_1 {
+	border: 1px solid #B14444; width: 290px; height: 45px;
+	margin-top: 40px;
+	background-color: #B14444; color: white;
+}
+#bt_2 {
+	border: 1px solid #D2CFCF; width: 290px; height: 45px;
+	margin-top: 10px;
+	background-color: white;
+}
+#d1 {
+	font-size: 14px;
+	margin-top: 30px;
+}
+#d2 {
+	font-size: 13px; color: gray;
+	margin-top: 10px; margin-bottom: 10px;
+}
+#d3 {
+	font-size: 12px; color: gray;
+}
+
+#bt_3 {
+	border: 1px solid #D2CFCF; width: 290px; height: 45px;
+	margin-top: 40px;
+	background-color: #D2CFCF; color: white;
+}
+
+/* content_2 */
+#h2 {
+	margin-left: 70px;
+	font-size: 30px;
+}
+#d2_1 {
+	font-size: 14px;
+	margin-top: 30px; margin-left: 70px;
+}
+#d2_2 {
+	
+	font-size: 13px;
+	margin-top: 10px; margin-left: 70px;
+}
+#bt2_1 {
+	border: 1px solid #B14444; width: 200px; height: 45px;
+	background-color: #B14444; color: white;
+	margin-top: 30px; margin-left: 70px;
+}
+#bt2_2 {
+	border: 1px solid #D2CFCF; width: 200px; height: 45px;
+	background-color: white;
+	margin-top: 10px; margin-left: 70px;
+}
+
+
+
+
+#sub_nav,
+#sub_nav2,
+#sub_nav3,
+#sub_nav4,
+#nav_login {
+  position: absolute;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://127.0.0.1:5500/header.html# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="./KANGOL_files/jquery-1.12.4.min.js.다운로드"></script>
+    <script src="./KANGOL_files/jquery.cycle3.js.다운로드"></script>
+    <title>KANGOL</title>
+<link rel="stylesheet" href="./KANGOL_files/header.css"></head>
+<body>
+    <div id="container">
+    <header>
+    <nav>
+        <a href="http://127.0.0.1:5500/header.html#" id="main_icon"></a>
+        <div id="login">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/header.html#">LOGIN</a></li>
+            <li><a href="http://127.0.0.1:5500/header.html#">JOIN</a></li>
+            <li><a href="http://127.0.0.1:5500/header.html#">CART</a></li>
+            <li><a href="http://127.0.0.1:5500/header.html#">ORDER</a></li>
+            <li><a href="http://127.0.0.1:5500/header.html#">MY PAGE▼</a></li>
+        </ul></div>
+        
+        </nav>
+        <a href="http://127.0.0.1:5500/header.html#" id="logo"><img src="./KANGOL_files/logo.png"></a>
+        <div id="search">
+            <input type="text" id="box">
+            <a href="http://127.0.0.1:5500/header.html#" id="search_img"><img src="./KANGOL_files/search.png"></a>
+        </div>
+        <div id="menu_bar">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/header.html#">HEADWEAR</a></li>
+            <li><a href="http://127.0.0.1:5500/header.html#">BAG</a></li>
+            <li><a href="http://127.0.0.1:5500/header.html#">CLOTHES</a></li>
+            <li><a href="http://127.0.0.1:5500/header.html#">SHOES</a></li>
+            <li><a href="http://127.0.0.1:5500/header.html#">ACC</a></li>
+            <li><a href="http://127.0.0.1:5500/header.html#">COMMUNITY</a></li>
+            <li><a href="http://127.0.0.1:5500/header.html#">LOOKBOOK</a></li>
+        </ul>
+    </div>
+    </header>
+
+    <div class="pic">
+        <a href="http://127.0.0.1:5500/header.html#"><img class="pic1" src="./KANGOL_files/pic.jpg"></a>
+    </div>
+
+    <article>
+    <div id="detail">
+    <a href="http://127.0.0.1:5500/header.html#"><h5 id="text_pro">TOTAL PRODUCT:343</h5></a>
+    <a href="http://127.0.0.1:5500/header.html#"><h5 id="home">' '</h5>
+    <h5 id="text_home">HOME</h5></a>
+    <h5 id="text_deco"> &gt; </h5>
+    <a href="http://127.0.0.1:5500/header.html#"><h5 id="text_bag">BAG</h5></a>
+    </div>
+    <div id="middle_line">
+        <hr width="50px" size="2&quot;">
+        <h1 id="middle_topic">BAG</h1>
+        <hr width="100px" size="2&quot;">
+    </div>
+    </article>
+    </div>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

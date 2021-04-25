@@ -1,0 +1,363 @@
+#user_main{
+    width: 1380px;
+    height: 1000px;
+    margin:0 auto;
+    font: normal 12px 'gulim','굴림';
+}
+
+#contents{
+    width:70%;
+    height: 1000px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+#left_box{
+    width: 18%;
+    height: 1000px;
+    background-color: white
+}
+#left_box h4{
+    padding-left: 10px;
+}
+#list_box{
+    width: 100%;
+    min-height: 700px;
+    background-color: #f9f9f9;
+    border: 1px solid #e1e1e1;
+}
+
+#list_box dt{
+
+   padding:15px 10px 15px 10px;
+   
+   background-color: white;
+   border-top: 1px solid #e1e1e1;
+   border-bottom: 1px solid #e1e1e1;
+}
+#list_box ul{
+    padding-left: 5px;
+}
+#list_box  dd{
+    margin-left: 25px;
+}
+#list_box li{
+    padding-bottom: 5px;
+    color:#777;
+}
+#right_box{
+    width: 78%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#right_1{
+    height:38px;
+    font-size: 11px;
+    font-family: 'dotum','돋움';
+    color: #797b80;
+    
+}
+#right_1 p {
+    margin-top:17px;
+}
+
+#right_2{
+    width:100%;
+    height:125px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #005bbb;
+}
+#right_2_sub1,#right_2_sub2,#right_2_sub3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#right_2_sub1{
+    width:13%;
+    height: 105px;
+
+    margin-right: 4px;
+}
+#right_2_sub1 img{
+    margin-bottom: 5px;
+    border:1px solid #e1e1e1;
+}
+#right_2_sub2{
+    width:23%;
+    height: 105px;
+    margin-right: 4px;
+}
+#right_2_sub2 table{
+    width:100%
+}
+#right_2_sub2 tr{
+    display: flex;
+    justify-content: space-between;
+}
+#right_2_sub2 h3{
+    width: 100%;
+    text-align: end;
+    font: 500 18px/18px 'NotoSansKR';
+    color: #444;
+    font-weight: bold;
+}
+#right_2_sub3{
+    width:60%;
+    height: 105px;
+    
+    color: #fff;
+    display: flex;
+    border: 1px solid #175392;
+    background-image: url(../image/userPage/bg_1.gif);
+
+}
+#right_2_sub3_1{
+
+    border-bottom: 1px solid #749dc7;
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+
+}
+#right_2_sub3_1 ul{
+    list-style: none;
+    display: inline;
+    padding-left: 20px;
+}
+#right_2_sub3_1 li{
+    display: inline;
+}
+#right_2_sub3_1 h4{
+    margin:0;
+    padding-left: 15px;
+    display: inline;
+}
+#right_2_sub3_1 a{
+    color:#fde800;
+    font-weight: bold;
+}
+
+#right_2_sub3_2{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: row;
+}
+
+#sub3_2_1{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sub3_2_1 h4{
+    margin:0px;
+}
+#sub3_2_2{
+    width: 80%;
+    height: 100%;
+}
+
+#right_3{
+    font-size: 11px;
+    font-family: 'dotum','돋움';
+    font-weight: normal;
+    color: #797b80;
+    margin-top:20px;
+    display: flex;
+    align-items: center;
+   
+}
+#right_3 span{
+    margin-left: 10px;
+}
+
+#right_4{
+    display: flex;
+    justify-content: space-between;
+    padding:5px
+}
+#right_4 input{
+    width: 70px;
+    height: 16px;
+    font-size: 11px;
+    font-family: 'dotum','돋움';
+    padding: 2px 0 0 8px;
+
+    
+}
+#right_4 span{
+    display: flex;
+    align-items: center;
+    color: #424242;
+    font-size: 11px;
+    font-family: 'dotum','돋움';
+}
+#right_4 img{
+    margin-left: 5px;
+    margin-right: 2px;
+}
+#right_5 table{
+    width: 100%;
+    height: 90px;
+   
+    border-collapse: collapse;
+    font-size: 11px;
+    font-family: 'dotum','돋움';
+}
+#right_5 thead{
+   
+    background-image: url(../image/userPage/bg_2.gif);
+    background-size: 100% 100%;
+}
+
+#right_5 th, #right_5 td {
+  
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+  }
+#right_5 tbody{
+    border-bottom:1px solid #e8e8e8;
+    
+}
+#right_5 tbody th{
+    
+    color:#bbb;
+}
+#right_6{
+    width:100%;
+    height: 196px;
+    background-color: deepskyblue;
+    margin: 15px 0px 15px 0px;
+    display: flex;
+}
+#right_6_sub1,#right_6_sub2,#right_7_sub1,#right_7_sub2{
+    width: 50%;
+    height: 100%;
+    background: chocolate;
+    border: 1px solid #d0d0d0;
+}
+#right_6_sub1_1,#right_6_sub2_1{
+    height: 27%;
+    width: 100%;
+    background-image: url(../image/userPage/bg_3.gif); 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+#right_6_sub1_1 img,#right_6_sub2_1 img{
+    padding:15px
+}
+#right_6_sub1_2,#right_6_sub2_2,#right_7_sub2_2{
+    width: 100%;
+    height: 73%;
+    background-color: #f5f5f5;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #d0d0d0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#right_6_sub2_2 div{
+    width: 100%;
+    height: 25%;
+   background-color: #f5f5f5;
+   font-size: 11px;
+   color: #797b80;
+   font-family: 'dotum','돋움';
+   display: flex;
+   align-items: center;
+}
+#right_6_sub2_2 #bg{
+    background-color: white;
+}
+#right_6_sub1_2 p{
+    width: 35px;
+    display: inline;
+}
+#right_6_sub1_2 a{
+    color:black;
+    font-weight: bold;
+}
+#right_6_sub1_2 ul{
+    width: 282px;
+    height: 28px;
+    list-style: none;
+    background-color: #fff;
+    padding-left: 15px;
+    margin-left: 10px;
+    border: 1px solid #e3e3e3;
+    display: flex;
+    align-items: center;
+}
+#right_6_sub1_2 li{
+    display: inline;
+}
+#right_6_sub1_2 div{
+    height: 30px;
+    width: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+#right_7{
+    width:100%;
+    height: 196px;
+    background-color: red;
+    margin: 0px 0px 15px 0px;
+    display: flex;
+}
+
+
+#right_7_sub2_div{
+    height: 50%;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+#right_7_sub2_div img{
+    border: 1px solid #ddd;
+    margin:10px
+}
+#right_7_sub2_div p{
+    display: inline;
+    color: #797b80;
+    font: normal 12px 'gulim','굴림';
+}
+#right_8{
+    width:100%;
+    height: 186px;
+}
+
+#list_title{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+}
+#item_box{
+    border: 1px solid #ddd;
+    height: 130px;
+}
+#item_box figure{
+    width: 90px;
+    height: 90px;
+}
+figcaption{
+    display: flex;
+    justify-content: center;
+}

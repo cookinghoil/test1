@@ -1,0 +1,513 @@
+body{
+    overflow-x:auto;
+}
+/* 기본 글자들 세팅 */
+h6 {
+    margin:0;
+    padding:0;
+    text-align:justify;
+    display:inline;
+    color:grey;
+    font-size:11.5px;
+}
+h5 {
+    margin:0;
+    padding:0;
+    text-align:justify;
+    font-weight:bold;
+    display:inline;
+    color:black;
+    font-size:14px;
+}
+li, ul, ol {
+    list-style : none;
+    margin:0;
+    padding:0;
+}
+/* --------------------- */
+
+section{
+    width: 100%;
+    min-width: 1300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#context{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+/* 상단에 노출되는 메인사진 */
+.product_main {
+    display: flex;
+    justify-content: center;
+    margin-left:5%;
+    margin-right:5%;
+    max-width: 1380px;
+    width:90%;
+}
+/*------------------------------------*/
+
+/* 메인사진 아래 - 본문내용을 담을 전체 섹션 범위 지정해주기(전체의 80%)*/
+.product_wrapper {
+    width:80%;
+    height:100%;
+    min-width: 1300px;
+}
+/*=========================================*/
+/* 카테고리 제목 및 셀렉트 리스트 - 상단영역*/
+.product_header, .product_header2 {
+    margin: 5;
+    max-width: 1350px;
+}
+.product_header>.product_header_inner {
+    position: relative;
+    float:right;
+    padding-top:25px;
+    padding-right:15%;
+    margin:0 auto;
+}
+/* 상단영역과 인기메뉴 부분 셀렉트 박스 및 페이지 중복부분 */
+.product_header>.product_header_inner>.sel1,
+.product_content_best > .product_header_inner2 > .sel1 {
+    width: 130px; 
+    padding: .7em .5em; 
+    background: url('../image/product/bottom.jpg') no-repeat 95% 50%;
+    border: 1px solid .999;
+    border-radius: 0px; 
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;
+}
+/* 상단영역과 인기메뉴 부분 셀렉트 박스 및 페이지 중복부분 */
+.product_header>.product_header_inner>.sel2,
+.product_content_best > .product_header_inner2 > .sel2
+ {
+    width: 50px;
+    padding: .7em .5em .4em;
+    background: url('../image/product/bottom2.jpg') no-repeat 95% 50%;
+    border: 1px solid .999;
+    border-radius: 0px;
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;
+}
+/*============== 상단영역 끝 ==============*/
+
+/*============== 콘텐츠 부분 ===============*/
+/* 상품 및 내용을 담을 컨텐츠 부분 */
+.product_content {
+    width:100%;
+    height:100%;
+}
+
+/* 우측 4xn 그리드라인 */
+.product_right_select {
+    box-sizing: border-box;
+    position: relative;
+    float:left;
+    width:75%;
+}
+
+/*========== 좌측 리스트 시작 ==========*/
+/* 좌측 리스트라인 */
+.product_left_select {
+    position: relative;
+    float:left;
+    padding-top:12px;
+    width:240px;
+}
+/* 대주제 */
+.product_left_select > .pl_list {
+    border-top: 2px solid black;
+    list-style: none;
+    display:inline-block;
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+}
+/* 대주제 리스트*/
+.pl_list {
+    border-top : 2px solid black;
+}
+.pl_list>li {
+    width:100%;
+    line-height: 45px;
+    color:black;
+    box-sizing: border-box;
+}
+.pl_list h4{
+    padding:0;
+    margin:0;
+    font-size: 15px;
+}
+.pro_list1, .pro_list2, .pro_list3, .pro_list4{
+    border-bottom: 1px solid #bebebe;
+    margin:0;
+    padding:0;
+}
+/* 상위 3개 리스트 MAN, NEW, SALE*/
+.pro_list1 {
+    background: #e1e1e1;
+    font-weight:bold;
+}
+
+.pro_list1 > a {
+    padding-left:15px;
+    text-decoration:none;
+    display: inline-block;
+    text-align:justify;
+    height: 50px; 
+    line-height: 50px; 
+    font-weight:bold;
+    color:black;
+}
+
+/* 하위 3개 리스트 */
+/* 카테고리 꾸미기*/
+.pro_list2 > .col{
+    padding-left:15px;
+    background-color: white;
+}
+.pro_list2 > .pro_list2_sub{
+    margin:0px;
+    padding:0px;
+    background-color:#e2e2e2;
+}
+.pro_list2 > .pro_list2_sub > .pro_list_top {
+    border-bottom: 1px solid #bebebe;
+    background-color : #d3d3d3;
+}
+.pro_list2 > .col > a{
+    text-decoration:none;
+    display: inline-block;
+    text-align:justify;
+    height: 50px; 
+    line-height: 50px; 
+    font-weight:bold;
+    color:black;
+}
+.pro_list2_sub > li > .sub_ul {
+    padding:0;
+}
+.pro_list2_sub > li > .sub_ul > li{
+    margin-left: 3px;
+    padding: 0;
+    line-height:2.2em;
+    font-size:13px;
+    font-family: 굴림;
+}
+.pro_list2_sub > li > .sub_ul > li > a{
+    margin-left: 3px;
+    padding: 0;
+    line-height:2.2em;
+    font-size:13px;
+    font-family: 굴림;
+}
+.pro_list2_sub > li >.sub_ul>.li_last{
+    padding-bottom:20px;
+}
+/* 드롭다운 메뉴들 들여쓰기 */
+.pro_list2 > .pro_list2_sub > li {
+    padding-left: 15px;
+}
+/* 드롭다운 목록 소분류 리스트들 */
+.pro_list2 > .pro_list2_sub > li > ul > li > a {
+    font-size:13px;
+    text-decoration:none;
+    color:black;
+}
+/* 드롭다운 기능 추가 */
+
+#shoes_sub,#clothes_sub,#product_sub { height:0px; visibility: hidden; }
+.pl_list li:hover ul{ display: block; }
+
+/*-----하위 3개 -------*/
+
+/* select size */ 
+.pro_list2 > .col > .top {
+    font-size:16px;
+    margin:0;
+    padding:0;
+    color:grey;
+}
+
+.pro_grid_wrap {
+    width:80%;
+    padding-left:5%;
+    padding-right:5%;
+    font-family:"NotoSansKR";
+    font-weight:700;
+    font-size:14px;
+    margin-bottom:40px;
+}
+.pro_grid_wrap h6{
+    font-size:15px;
+}
+
+/* 신발,의류,용품 메뉴들을 그리드로 정렬 */
+.pro_grid_wrap > .sub_grid {
+    overflow:hidden;
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.pro_grid_wrap > .sub_grid > div {
+    text-align:center;
+    background-color:#f1f1f1;
+}
+.pro_grid_wrap > .sub_grid > div > a {
+    text-align:center;
+    text-shadow: 0 0 24px;
+    text-decoration:none;
+    color:grey;
+}
+/* 이런식으로 경계선을 넣어야 겹치게 그려지지 않습니다 */
+.pro_grid_wrap > .sub_grid {
+    overflow:hidden;
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid #aaa;
+    border-left: 1px solid #aaa;
+}
+.pro_grid_wrap >.sub_grid > div {
+    border-right: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+}
+/* 이런식으로 경계선을 넣어야 겹치게 그려지지 않습니다 */
+
+/* select color */
+.pro_list2 > .sub_grid2 {
+    overflow:hidden;
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom:30px;
+    width:195px;
+    margin-left:10px;
+}
+.sub_grid2 > div {
+    margin:2px;
+    text-align:center;
+    font-size:13px;
+    font-family: 굴림;
+    width:40px;
+    height:40px;
+    background:grey;
+}
+/* 색깔별 설정해주기 - 이거보다 똑똑한 방법이 있지 않을까..?*/
+.sub_grid2 > .c1 { background:#C38C5D;}
+.sub_grid2 > .c2 { background:#BE3536;}
+.sub_grid2 > .c3 { background:#D55F8F;}
+.sub_grid2 > .c4 { background:#D9D9D9;}
+.sub_grid2 > .c5 { background:#D2D18A;}
+.sub_grid2 > .c6 { background:#5C9961;}
+.sub_grid2 > .c7 { background:#32325F;}
+.sub_grid2 > .c8 { background:#B5A775;}
+.sub_grid2 > .c9 { background:#838484;}
+.sub_grid2 > .c10 { background:#D97500;}
+.sub_grid2 > .c11 { background:#EDEDDE;}
+.sub_grid2 > .c12 { background:#CCC5BD;}
+.sub_grid2 > .c13 { background:#764497;}
+.sub_grid2 > .c14 { background:#0172AE;}
+.sub_grid2 > .c15 { background:#FFFACD;}
+.sub_grid2 > .c16 { background:#000000;}
+.sub_grid2 > .c17 { background:#806B53;}
+
+.sub_grid2 > div > a {
+    text-shadow: 0 0 24px;
+    text-decoration:none;
+}
+/* 좌측 리스트 메뉴 끝 */
+/* ===================================== */
+
+/* ===================================== */
+ /* 우측 상품 진열메뉴 시작 */
+.product_right_grid {
+    width:86.5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 1%;
+    padding-left :2%;
+    margin-right:5px;
+}
+.product_right_grid > .item {
+    width:230px;
+    height:450px;
+    margin:0;
+    margin-right:10px;
+}
+.product_right_grid > .item > .img {
+    /*filter: drop-shadow(2px 2px 2px grey);*/
+    width:200px;
+    cursor: pointer;
+}
+/*이미지 변경시 꿈틀거림 수정*/
+.img img{
+    width: 230px;
+    height: 220px;
+}
+.product_right_grid > .item > .img_ex {
+    float:left;
+    padding-left:30px;
+    margin-top:7px;
+    margin-bottom: 50px;
+    width:200px;
+    line-height: 1.5em;
+    font-weight:bold;
+    color:black;
+    font-family: sans-serif;
+}
+.hover_item {
+    display:flex;
+    justify-content: center;
+    visibility:hidden;
+    position:absolute;
+    height:75px;
+    width:230px;
+    margin:0;
+    padding:0;
+    text-align:center;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    white-space:nowrap;   
+
+}
+/*******************호일 수정*************/
+.item:hover {
+    box-shadow: 2px 5px 15px 2px pink;
+    z-index: 3;
+}
+.item:hover>.hover_item { 
+    position: relative;
+    visibility: visible;
+}
+.hover_item img:hover {
+    border-bottom: 3px solid pink;
+}
+/***********************************88*/
+/* 상품진열 하단 인기메뉴 */
+.product_content_best {
+    width:100%;
+    overflow: hidden;
+    clear:both;
+   
+}
+.product_content_best > .product_header_inner2 {
+    float:right;
+    padding-top:25px;
+    padding-right:16%;
+}
+.product_content_best > .product_best_item {
+    clear:both;
+    width:75%;
+    margin-left:260px;
+    margin-top:20px;
+}
+.product_best_item > .product_best_inner {
+    overflow:hidden;
+    width:90%;
+    display: grid;
+    margin-right:22%;
+    grid-template-columns: repeat(4, 1fr);
+    margin-right:5%;
+}
+.product_best_inner > .best_item > .best_img {
+    cursor: pointer;
+    margin:5px;
+}
+.product_best_inner > .best_item > .best_item_text {
+    color : red;
+    font-weight:bold;
+    font-size:14px;
+    padding-left:70px;
+}
+/* 우측 상품진열 끝 */
+/*=======================================*/
+
+/* hover 이미지 내부 4개 이상일떄 작업 */
+.s_container {
+    display: none;
+    overflow: hidden;
+    position: relative;
+}
+.s_slider {
+    overflow: hidden;
+    position: relative;
+}
+.s_item {
+    height:60px;
+    float: left;
+    /*border: 2px solid #fff;*/
+}
+.s_slider > img:hover {
+    border-bottom:4px solid pink;
+}
+.prev {
+    float:left;
+    opacity: 0.6;
+    background:url("../image/product/b_left.jpg") no-repeat;
+    width:14px;
+    height:20px;
+    border:0;
+    outline:0;
+}
+.next{
+    float:right;
+    opacity: 0.6;
+    background:url("../image/product/b_right.jpg") no-repeat;
+    width:14px;
+    height:20px;
+    border:0;
+    outline:0;
+}
+.btn{
+    visibility: hidden;
+    position: relative;
+    bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    opacity: 0.6;
+}
+#item_2 .img_ex{
+    position: relative;
+    bottom:20px;
+}
+/*======== hover 초과이미지 작업 끝 ===========*/
+
+/* -- 슬라이드 테스트용 이미지들
+.item1{
+    background-color: aquamarine;
+}
+.item2{
+    background-color: rgb(178, 231, 109);
+}
+.item3{
+    background-color: rgb(190, 149, 59);
+}
+.item4{
+    background-color: rgba(175, 71, 223, 0.795);
+}
+.item5{
+    background-color: rgb(231, 159, 117);
+}
+.item6{
+    background-color: rgb(21, 122, 218);
+}
+.item7{
+    background-color: rgb(47, 167, 23);
+}
+.item8{
+    background-color: rgb(216, 36, 147);
+}
+.item9{
+    background-color: rgb(241, 239, 78);
+}
+.item10{
+    background-color: rgb(36, 152, 219);
+}
+*/
